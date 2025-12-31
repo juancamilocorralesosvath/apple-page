@@ -32,9 +32,9 @@ const Showcase = () => {
     return (
         <section id='showcase'>
             <div className="media">
-                <video src="/videos/game.mp4" loop muted autoPlay playsInline></video>
+                <video src="/videos/game.mp4" loop muted autoPlay playsInline />
                 <div className="mask">
-                    <img src="/mask-logo.svg" alt="" />
+                    <img src="/mask-logo.svg" alt="apple mask" />
                 </div>
             </div>
             <div className="content">
@@ -61,17 +61,18 @@ const Showcase = () => {
                             <p className="text-primary">Learn more about Apple Intelligence</p>
                         </div>
                     </div>
-                </div>
-                <div className='max-w-3xs space-y-14'>
-                    <div className="space-y-2">
-                        <p>Up to</p>
-                        <h3>4x faster</h3>
-                        <p>pro rendering performance than M2</p>
-                    </div>
-                    <div className="space-y-2">
-                        <p>Up to</p>
-                        <h3>1.5x faster</h3>
-                        <p>CPU performance than M2</p>
+
+                    <div className='max-w-3xs mt-10 lg:mt-0 space-y-14 lg:ml-10 lg:flex lg:flex-col lg:justify-center'>
+                        <div className="space-y-2">
+                            <p>Up to</p>
+                            <h3>4x faster</h3>
+                            <p>pro rendering performance than M2</p>
+                        </div>
+                        <div className="space-y-2">
+                            <p>Up to</p>
+                            <h3>1.5x faster</h3>
+                            <p>CPU performance than M2</p>
+                        </div>
                     </div>
                 </div>
             </div>
