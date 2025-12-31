@@ -18,7 +18,7 @@ const Highlights = () => {
       duration: 2,
       ease: 'power1.inOut',
     })
-  }, [])
+  }, [isMobile])
   return (
     <section id='highlights'>
       <h2>There's never been a better time to upgrade.</h2>
